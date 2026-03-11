@@ -13,7 +13,8 @@ export type EventType =
   | 'trust_alert'
   | 'rug_warning'
   | 'milestone'
-  | 'news';
+  | 'news'
+  | 'digest';
 
 export interface Event {
   id: string;
